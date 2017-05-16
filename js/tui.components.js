@@ -541,7 +541,7 @@
                 range = document.createRange();
                 range.selectNodeContents(element);
                 selection.removeAllRanges();
-                selection.addRange(range);
+                selection.addRange(range);232
             }
         }
 
