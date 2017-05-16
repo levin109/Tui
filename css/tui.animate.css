@@ -1,11 +1,16 @@
-﻿/**********************************************
-   Author：Jodylai(FuHuaLai)
-   Tui 2016-2017 Make things simple and better
+﻿/*!
+ * Tui 2016-2017 Make things simple and better
+ * HTML5 UI Framework v1.0.0 - beta
+ *
+ * http://tui.laifh.com/
+ *
+ * Author: FuHuaLai
+ * Date  : 2017-5-1 17:23:05
+ *
+ * Reference: Animate.css https://github.com/daneden/animate.css 
+ *            Magic.css https://github.com/miniMAC/magic 
+ */
 
-   Reference: Animate.css https://github.com/daneden/animate.css 
-              Magic.css https://github.com/miniMAC/magic 
-
-*********************************************/
 .animated {
     animation-duration: 1s;
     animation-fill-mode: both;

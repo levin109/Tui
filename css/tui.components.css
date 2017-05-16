@@ -1,7 +1,12 @@
-﻿/**********************************************
-   Author：Jodylai(FuHuaLai)
-   Tui 2016-2017 Make things simple and better
- *********************************************/
+﻿/*!
+ * Tui 2016-2017 Make things simple and better
+ * HTML5 UI Framework v1.0.0 - beta
+ *
+ * http://tui.laifh.com/
+ *
+ * Author: FuHuaLai
+ * Date  : 2017-5-1 17:23:05
+ */
 
 /*
     Alert
@@ -19,30 +24,35 @@
     background-color: #f2f2f2;
     border-color: #e5e5e5;
     color: #666;
+    border-left: 0.3rem solid #bbb;
 }
 
 .alert-success {
     background-color: #dff0d8;
     border-color: #d0e9c6;
     color: #3c763d;
+    border-left: 0.3rem solid #75BD56;
 }
 
 .alert-info {
     background-color: #d9edf7;
     border-color: #bcdff1;
     color: #31708f;
+    border-left: 0.3rem solid #44A5DA;
 }
 
 .alert-warning {
     background-color: #fcf8e3;
     border-color: #faf2cc;
     color: #8a6d3b;
+    border-left: 0.3rem solid #E6C314;
 }
 
 .alert-danger {
     background-color: #f2dede;
     border-color: #ebcccc;
     color: #a94442;
+    border-left: 0.3rem solid #d66;
 }
 
 .alert .close {
@@ -191,6 +201,7 @@
 
     .alert-box .alert {
         box-shadow: 1px 1px 12px 0 rgba(0,0,0,0.2);
+        border-left: 0;
         margin: 1rem 0;
         padding: 1.3rem 1.5rem 1.4rem 3.5rem;
         min-width: 20rem;

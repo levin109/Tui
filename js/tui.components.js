@@ -1,6 +1,6 @@
 ﻿/*!
  * Tui 2016-2017 Make things simple and better
- * HTML5 UI Framework v1.0.0 0 - beta
+ * HTML5 UI Framework v1.0.0 - beta
  *
  * http://tui.laifh.com/
  *
@@ -1964,9 +1964,10 @@
             privateHelper.Dragger.stopMoving();
         });
 
-
-
-
+        $('body').on('click', '[data-toggle="gotop"]', function (e) {
+            e.preventDefault();
+            $('body,html').animate({ scrollTop: 0 }, 500);
+        });
 
         //domchange
         // privateHelper.initDomObserver();
@@ -1974,6 +1975,3 @@
 
 
 }());
-
-
-

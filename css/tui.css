@@ -1,13 +1,16 @@
-﻿/**********************************************
-   Author：Jodylai(FuHuaLai)
-   Tui 2016-2017 Make things simple and better
- *********************************************/
-
+﻿/*!
+ * Tui 2016-2017 Make things simple and better
+ * HTML5 UI Framework v1.0.0 - beta
+ *
+ * http://tui.laifh.com/
+ *
+ * Author: FuHuaLai
+ * Date  : 2017-5-1 17:23:05
+ */
 
 /***********************
  Common(通用)
  ***********************/
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +24,7 @@
 
 html {
     font-family: 'Segoe UI',"Helvetica Neue", HelveticaArial,'Microsoft YaHei',NSimSun; /*character font first,then chinese font*/
-    font-size: 10px; /*easy for rem compute,but chrome set minimum font size 12px,that is annoying!!!*/
+    font-size: 10px; /*easy for rem compute,but chrome set minimum font size 12px,that is annoying!!! use chrome10px.js to solve this problem*/
 }
 
 body {
@@ -29,6 +32,12 @@ body {
     color: #555; /*global font color*/
     font-size: 1.4rem; /*global font-size*/
     padding-left: calc(100vw - 100%); /*solve scrollbar cause content jump*/
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
 input, select, textarea, button {
@@ -301,7 +310,7 @@ a {
 
         a.normal,
         a.normal:hover {
-            color: inherit !important;
+            color: #555 !important;
         }
 
 /*标题*/
@@ -346,6 +355,10 @@ p {
     p.txt-indent {
         text-indent: 2em;
     }
+
+        p.txt-indent * {
+            text-indent: 0;
+        }
 
     p.normal {
         margin: 0;
@@ -435,7 +448,7 @@ kbd {
 
 code {
     line-height: 1.5em;
-    padding: 0.3rem 0.8rem;
+    padding: 0.1rem 0.6rem;
     border-radius: 0.2rem;
     word-break: break-all;
     word-wrap: break-word;
@@ -801,7 +814,7 @@ img {
 }
 
 .col-auto {
-    flex: 1 1 auto;
+    flex: 1 1 100%;
 }
 
 .row {
@@ -1088,8 +1101,6 @@ img {
 
 .col-lg-12 {
     flex: 0 0 100%;
-}
-
 }
 
 @media (min-width:1600px )and (max-width: 1919px) {
